@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="js/need.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/showBo.css" />
+	<script type="text/javascript" src="js/showBo.js"></script>
+
+</head>
+
+<body>
+<!--定义了一个login按钮 链接为空 -->
+  <span href="#" class="button" id="toggle-login">Login</span>
+<!--定义一个login表单框架实体 -->
+<div id="login">
+  <!--表单上的三角形 -->
+  <div id="triangle"></div>
+  <!--表单 -->
+  <form name="myForm">
+	<br/>    
+    <span class="ttt" style="background-image: url(img/1.png);"></span>
+    <input type="email" required="required" name="email" placeholder="Email" /><br/>
+	<span class="ttt"style="background-image: url(img/2.png);"></span>
+    <input type="password" required="required" name="password" placeholder="Password" /><br/>
+    <input type="submit" value="Login" onclick="check()"/> <br/>
+  </form>
+      <script src='js/jquery.js'></script>
+	  <script src="js/index.js"></script>
+</div>
+
+</body>
+
+</html>
